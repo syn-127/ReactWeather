@@ -8,7 +8,7 @@ body{
   padding: 5px 30px;
   width: 290px;
   height: 470px;
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #FFF;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
   -webkit-animation: open 2s cubic-bezier(.39, 0, .38, 1);
@@ -72,4 +72,11 @@ div#temp{
   position: fixed;
   top: 24%;
   right: 42%;
+}
+
+table {
+  position: relative;
+  top: 173px;
+  width: 100%;
+  text-align: center;
 }
